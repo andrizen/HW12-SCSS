@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>SCSS</title>
+</head>
+<body>
+	<header>
+	<nav>
+		<div class="nav-flex">
+			<div><a href="#">Home</a></div>
+			<div><a href="#">About</a></div>
+			<div><a href="#">Contact</a></div>
+		</div>
+
+		<h3>Landie</h3>
+
+		<div><button class="nav-btn">Buy Now</button></div>
+	</nav>
+
+	<div class="header-info">
+		<h1>Introduce Your Product Quickly & Effectively</h1>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus<br> 
+			<br />
+		mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+		<div class="h-buttons"><button class="left-hbtn">Purchase UI Kit</button><button class="right-hbtn">Learn More</button></div>
+	</div>
+	</header>
+
+	<main>
+		<article>
+			<div class="info2">
+				<h2>Light, Fast & Powerful</h2>
+				<p class="text2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br>
+					<br />
+				mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.   </p>
+				<div class="boxes">
+					<div class="box">
+						<div><img src="img/i2.svg" alt="home"></div>
+						<h4>Title Goes Here</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+					</div>
+					<div class="box two">
+						<div><img src="img/i2.svg" alt="home"></div>
+						<h4>Title Goes Here</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+					</div>
+					
+				</div>
+			</div>
+
+			<!--<div class="img2"><img src="img/img2.png" alt=""></div>-->
+			<div class="img2">
+			<picture>
+ 			 <!--   <source media="(max-width:480px)" srcset="img/mobile/mimg2.png">
+ 			    <source media="(max-width:540px)" srcset="img/mobile/img2.png">
+ 			 
+ 				<img src="img/img2.png" alt="img2">-->
+ 				<source media="(min-width:540px)" srcset="img/img2.png">
+ 			    <source media="(min-width:460px)" srcset="img/mobile/mimg2.png">
+ 			 
+ 				<img src="img/mobile/img2.png" alt="img2">
+			</picture>	
+			</div>
+
+		</article>
+
+		<section class="sec3">
+			<div>
+			<picture>
+ 			    <source media="(max-width:540px)" srcset="img/mobile/img3.png">
+ 				<img src="img/img3.png" alt="img3">
+			</picture>	
+			</div>
+
+			<div class="sec-info">
+				<h2>Light, Fast & Powerful</h2>
+				<p class="text2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br>
+					<br />
+				mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.   </p>
+			</div>
+		</section>
+
+		<section class="sec4">
+			<div>
+				<picture>
+ 			   <!-- <source media="(max-width:480px)" srcset="img/mobile/mimg4.png">-->
+ 			    <source media="(max-width:540px)" srcset="img/mobile/img4.png">
+ 			 
+ 				<img src="img/img4.png" alt="img4">
+				</picture>	
+			</div>
+			<div class="sec-info">
+				<h2>Light, Fast & Powerful</h2>
+				<p class="text2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br>
+					<br />
+				mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.   </p>
+			</div>
+		</section>
+
+		<section class="sec5">
+			<div>
+				<picture>
+ 			    <source media="(max-width:540px)" srcset="img/mobile/img5.png">
+ 				<img src="img/img5.png" alt="img5">
+				</picture>
+			</div>
+
+			<div class="sec-info">
+				<h2>Light, Fast & Powerful</h2>
+				<p class="text2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br>
+					<br />
+				mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.   </p>
+			</div>
+		</section>
+	</main>
+
+	<article class="footer-a">
+		<div class="f-info">
+			<h2 class="f-title">A Price To Suit Everyone</h2>
+			<p class="f1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+			<h2 class="footer-h">$40</h2>
+			<p class="f2">UI Design Kit</p>
+			<p class="f3">See, One price. Simple.</p>
+			<div><button class="f-btn">Purchase Now</button></div>
+		</div>
+	</article>
+
+	<footer>
+		<div class="top-cont">
+		<div class="f-label">©2020 Yourcompany</div>
+		<div class="f-logo">Landie</div>
+		<div><button class="footer-btn">Purchase now</button></div>
+		</div>
+
+		<div class="bottom-cont">
+			<div class="f-flex">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Home</a>
+			</div>
+
+			<div class="f-icons">
+				<div><a href="#"><img src="img/facebook.svg" alt="facebook"></a></div>
+				<div><a href="#"><img src="img/linkedin.svg" alt="linkedin"></a></div>
+				<div><a href="#"><img src="img/twitter.svg" alt="twitter"></a></div>
+				<div><a href="#"><img src="img/youtube.svg" alt="youtube"></a></div>
+				<div><a href="#"><img src="img/insta.svg" alt="instagram"></a></div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
