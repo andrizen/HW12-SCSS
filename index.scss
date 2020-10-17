@@ -147,6 +147,10 @@ header{
 			margin: 0px;
 		}
 
+		.header-info{
+			text-align: center;
+		}
+
 		
 	}
 
@@ -286,10 +290,12 @@ main{
 		article{
 			display: flex;
 			flex-direction: column-reverse;
+			text-align: center;
 
 			.info2{
 				text-align: center;
-				margin-left: 0px;
+				margin-left:auto;
+				margin-right: auto;
 			}
 
 			.img2{
@@ -301,9 +307,14 @@ main{
 		section{
 			display: flex;
 			flex-direction: column-reverse;
+			text-align: center;
 
 			img{
 				margin-top: 20px;
+			}
+			.sec-info{
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 
@@ -320,8 +331,6 @@ main{
 	background: rgba(231, 236, 255, 0.5);
 	mix-blend-mode: normal;
 	margin: 0 auto;
-	
-
 
 	.f-info{
 		max-width: 600px;
@@ -445,9 +454,12 @@ footer{
 
 	.bottom-cont{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		min-height: 76px;
+		max-width: 75%;
+		margin: 0 auto;
 		align-items: center;
+		border-top: 1px solid grey;
 
 		.f-flex{
 			width: 250px;
@@ -470,6 +482,7 @@ footer{
 
 		.f-icons img:hover{
 			background: blue;
+			opacity: 0.5;
 		}
 	}
 

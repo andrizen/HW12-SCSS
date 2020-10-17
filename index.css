@@ -133,6 +133,9 @@ header .header-info .right-hbtn:hover {
   header h3 {
     margin: 0px;
   }
+  header .header-info {
+    text-align: center;
+  }
 }
 @media (max-width: 540px) {
   header nav {
@@ -246,10 +249,12 @@ main section img {
   main article {
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
   }
   main article .info2 {
     text-align: center;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   main article .img2 {
     margin-top: 5px;
@@ -257,9 +262,14 @@ main section img {
   main section {
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
   }
   main section img {
     margin-top: 20px;
+  }
+  main section .sec-info {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -380,9 +390,12 @@ footer .top-cont .footer-btn:hover {
 }
 footer .bottom-cont {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 76px;
+  max-width: 75%;
+  margin: 0 auto;
   align-items: center;
+  border-top: 1px solid grey;
 }
 footer .bottom-cont .f-flex {
   width: 250px;
@@ -403,6 +416,7 @@ footer .bottom-cont .f-icons {
 }
 footer .bottom-cont .f-icons img:hover {
   background: blue;
+  opacity: 0.5;
 }
 @media (max-width: 520px) {
   footer .top-cont, footer .bottom-cont {
